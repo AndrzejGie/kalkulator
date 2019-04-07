@@ -1,5 +1,41 @@
-.main {
+.viewAll-calc {
+    background-color: whitesmoke;
     height: 600px;
     width: 450px;
-    border: 3px solid black;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+}
+.buttons {
+}
+.line1 {
+    width: 18%;
+}
+.line2 {
+    width: 18%;
+}
+.line3 {
+    width: 18%;
+}
+.line4 {
+    width: 18%;
+}
+.actions {
+    background-color: lightgray;
+}
+.zero {
+    width: 36%;
+}
+input {
+    width: 60%;
+    height: 10%;
+    font-size: 35px;
+    text-align: right;
+}
+button {
+    width: 40px;
+    height: 40px;
+}
+button:hover {
+    background-color: slategray;
 }
