@@ -6,6 +6,7 @@
     position: relative;
     text-align: center;
 }
+
 /*
 .keyboard {
     position: absolute;
@@ -19,49 +20,71 @@
     width: 90%;
     height: 90%;
 }
+
 .btnline1 {
     width: 18%;
 }
+
 .btnline2 {
     width: 18%;
 }
+
 .line3 {
     text-align: left;
     margin-right: 10px
 }
+
 .btnline3 {
     width: 18%;
 }
+
 .line4 {
     text-align: left;
     margin-right: 10px
 }
+
 .btnline4 {
     width: 18%;
 }
+
 .actions {
     background-color: lightgray;
 }
-.zero {
-    width: 37%;
+
+.clear {
+    background-color: darksalmon;
 }
-.sum {
+
+.divide {
+    position: relative;
+    margin-left: 18.9%;
+}
+
+.multiply {
+    position: relative;
+    margin-left: 18.9%;
+}
+
+.plus {
     position: absolute;
-    width: 16.5%;
-    margin-left: 2px;
-    top: 64%;
-    height: 36%
+    width: 16.1%;
+/*    margin-left: 2px;*/
+    top: 61.5%;
+    height: 38.5%;
 }
+
 input {
     width: 80%;
-    font-size: 75px;
+    font-size: 50px;
     text-align: right;
     margin-top: 10px;
 }
+
 button {
     font-size: 50px;
     height: 80%;
 }
+
 button:hover {
     background-color: slategray;
 }
